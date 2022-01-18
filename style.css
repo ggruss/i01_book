@@ -1,2 +1,5 @@
-p {font: bold italic 40px/60px Arial;}
-p {text-indent: 50px;}
+p {
+	text-indent: 50px;
+	text-align: justify;
+	width: 400px;
+}
