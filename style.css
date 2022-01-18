@@ -1,9 +1,9 @@
 p {
 	font-family: "Comic Sans MS";
 }
-h2 {
-	font-family: Arial;
-}
-h1 {
-	font-family: Impact;
+p {
+	font-size: 30px;
+	line-height: 45px;
+	text-align: justify;
+	width: 400px;
 }
