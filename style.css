@@ -1,9 +1,1 @@
-p {
-	font-family: "Comic Sans MS";
-}
-p {
-	font-size: 30px;
-	line-height: 1.5;
-	text-align: justify;
-	width: 400px;
-}
+p {font:  13px/20px "Times New Roman";}
