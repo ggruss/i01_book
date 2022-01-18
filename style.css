@@ -1,3 +1,9 @@
-h1{font-size:50px;font-weight:normal;text-align:center;}
-h2{font-size:40px;font-weight:normal;}
-p{font-size:30px;}
+p {
+	font-family: "Comic Sans MS";
+}
+h2 {
+	font-family: Arial;
+}
+h1 {
+	font-family: Impact;
+}
