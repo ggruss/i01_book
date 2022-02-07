@@ -1,4 +1,2 @@
-.eee {font-size: 20px;}
-.zzz {font-size: 30px;}
-.ggg {font-size: 35px;}
-.eee,.zzz,.ggg{text-align: center;font-family: Arial;}
+h2.header {font-size: 40px;}
+h3.header {font-size: 30px;}
