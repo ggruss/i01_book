@@ -1,3 +1,4 @@
 .eee {font-size: 20px;}
 .zzz {font-size: 30px;}
-.eee,.zzz{line-height: 1.5;font-family: Arial;}
+.ggg {font-size: 35px;}
+.eee,.zzz,.ggg{text-align: center;font-family: Arial;}
