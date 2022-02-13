@@ -1,1 +1,1 @@
-[href ="http://"] {color: red;}
+[href *=".html"] {background: gray;}
