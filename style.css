@@ -1,3 +1,10 @@
-#elem .bbb {
-	color: red;
+/*#block h1 {
+	text-align: center;
 }
+#block h2 {
+	text-align: center;
+}
+было*/
+#block h1, #block h2 {
+	text-align: center;
+}/*стало*/
