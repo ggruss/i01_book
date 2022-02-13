@@ -1,12 +1,9 @@
-/*.xxx .kkk {
+/*.eee h2.zzz {
 	text-align: center;
 }
-.eee h2.zzz {
-	text-align: center;
-}
-#eee h2 {
+.xxx {
 	text-align: center;
 }было*/
-.xxx .kkk,.eee h2.zzz,#eee h2 {
+.eee h2.zzz ,.xxx {
 	text-align: center;
 }/*стало*/
