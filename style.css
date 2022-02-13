@@ -1,9 +1,9 @@
-.success {
+#elem2{
 	color: green;
 }
-.error {
-background: #0C0C0C;
+#elem1{
+	color: red;
 }
-.large {
-	font-size: 30px;
+#elem3 {
+	color: blue;
 }
