@@ -1,15 +1,12 @@
 #parent {
-	width: 300px;
+	width: 200px;
 	height: 300px;
-	border: 1px solid red;
+	border: 1px solid orange;
 }
+
 #child {
-	margin-top:    50px; /* сверху */
-	margin-right:  60px; /* справа */
-	margin-bottom: px; /* снизу */
-	margin-left:   90px; /* слева */
-	
-	height: 150px;
+	height: 30px;
 	width: 90px;
-	border: 1px solid green;
+	border: 1px dashed blue;
+	margin: 50px 30px;
 }
