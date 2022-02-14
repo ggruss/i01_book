@@ -5,6 +5,11 @@
 
 #child {
 	height: 300px;
-	border: 1px solid orange;
+	border: 1px dashed green;
+	margin: 50px;
+}
+#childd {
+	height: 200px;
+	border: 1px solid red;
 	margin: 50px;
 }
