@@ -1,6 +1,6 @@
-a {
+a.zzz {
 	color: red;
 }
-a:hover {
+a.zzz:hover {
 	text-decoration: none;
 }
