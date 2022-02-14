@@ -1,12 +1,6 @@
 #parent {
+	padding: 30px;
 	width: 300px;
-	height: 100px;
-	border: 1px solid orange;
-}
-
-#child {
-	height: 30px;
-	width: 90px;
-	border: 1px dashed blue;
-	margin: 30px 90px;
+	height: 400px;
+	border: 1px solid red;
 }
