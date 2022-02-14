@@ -1,1 +1,11 @@
-[class *="top-"] {background: gray;}
+a:link {
+color: blue;}
+a:visited {
+	color: green;
+}
+a:hover {
+	color: red;
+}
+a:active {
+	color: black;
+}
