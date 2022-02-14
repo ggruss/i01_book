@@ -1,6 +1,7 @@
 #elem {
-	width: 150px;
-	height: 150px;
+	width: 300px;
+	height: 300px;
 	color: white;
-	background-color:purple; /* задаем оранжевый цвет фона */
+	text-align: center;
+	background-color:green; /* задаем оранжевый цвет фона */
 }
