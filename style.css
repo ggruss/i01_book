@@ -1,12 +1,10 @@
-.parent {
-	margin-top: 10px;
-	margin-left: 100px;
+.parent	{
+	margin: 10px 10px;
 	display: flex;
-	width: 1000px;
 	border: 1px solid red;
 }
 .child {
 	width: 100px;
-	height: 100px;
+	height: 70px;
 	border: 1px solid green;
 }
