@@ -5,6 +5,7 @@
 	border: 1px solid red;
 }
 .child {
+	margin: 10px;
 	width: 100px;
 	height: 70px;
 	border: 1px solid green;
