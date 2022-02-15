@@ -1,22 +1,5 @@
 .parent {
+	padding: 10px 0;
 	border: 1px solid red;
-}
-
-.child {
-	height: 100px;
-	width: 100px;
-	border: 1px solid green;
-	margin: 10px auto;
-}
-.childd {
-	height: 100px;
-	width: 200px;
-	border: 1px solid green;
-	margin: 10px auto;
-}
-.childdd {
-	height: 100px;
-	width: 300px;
-	border: 1px solid green;
-	margin: 10px auto;
+text-align: center;
 }
