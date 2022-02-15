@@ -1,5 +1,5 @@
 .parent	{ 
-	justify-content: space-around;
+	justify-content: space-evenly;
 	margin: 0px 10px;
 	display: flex;
 	height: 500px;
