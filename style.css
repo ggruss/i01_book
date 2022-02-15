@@ -1,27 +1,27 @@
 #elem1 {
-	position: absolute;
+	position: relative;
 	width: 100px;
 	height: 100px;
+	/*margin-bottom: 20px;*/
 	top: 100px;
-	left: 100px  ;
-	border: 1px solid red;
-	background: red;
+	left: 100px;
+	background-color: #FF8888;
 }
 #elem2 {
-	position: absolute;
-	top: 140px;
-	left: 140px;
-	
+	position: relative;
 	width: 100px;
 	height: 100px;
-	border: 1px solid blue;
-	background: blue;
+	top: 60px;
+	left: 150px;
+	/*margin-bottom: 20px;*/
+	background-color: #7E89EB;
 }
-#elem3{
+#elem3 {
+	position: relative;
 	width: 100px;
 	height: 100px;
-	position: absolute;
-	top: 180px;
-	left: 180px;
-	border: 1px solid green;
-background: green;}
+	top: 20px;
+	left: 200px;
+	/*margin-bottom: 20px;*/
+	background-color: #4DEE99;
+}
