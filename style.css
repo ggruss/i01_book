@@ -4,9 +4,9 @@
 	border: 1px solid red;
 }
 .child {
-	margin-right: auto;
-	margin-right: 10px;
+	
 	display: inline-block;
+	width: 100px;
 	padding: 10px;
 	border: 1px solid green;
 }
