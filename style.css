@@ -1,8 +1,11 @@
-div {
-
-}
+div {width: 600px;
+	border: 1px solid;
+margin: auto;
+text-align: justify;}
 #ty{
+	padding-top: 20px;
 	float: right;
+
 }
 #tu{
 	float: left;
