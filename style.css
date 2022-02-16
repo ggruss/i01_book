@@ -1,25 +1,19 @@
-#parent {
-	position: relative;
-	width: 600px;
-	height: 300px;
-	margin: 50px auto;
-	border: 1px solid green;
+body {
+margin: 0;
 }
-#child {
-	position: absolute;
-	/*top: -20px;*/
-	left: -100px;
-	
-	width: 50px;
-	height: 50px;
-	border: 1px solid red;
-}
-#childd {
-	position: absolute;
-	/*top: -20px;*/
-	left: 630px;
-	
-	width: 50px;
-	height: 50px;
-	border: 1px solid red;
-}
+#ads{text-align: center;
+line-height: 50px;
+font-size: 21px;
+top: 0 ;
+left: 0;
+background: yellow;
+position: fixed;
+width: 100%;
+margin: 0 auto;
+height: 50px;
+border: 1px solid black;}
+p{
+width: 600px;
+margin: 60px auto;
+padding: 20px;
+border: 1px solid yellow;}
