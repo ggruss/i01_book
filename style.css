@@ -1,12 +1,13 @@
 div {width: 600px;
 	border: 1px solid;
 margin: auto;
-text-align: justify;}
+text-align: justify;
+padding: 30px;}
 #ty{
-	padding-top: 20px;
+	height: 100px;
+	width: 100px;
+	border: 1px solid;
+	margin: 30px;
 	float: right;
 
-}
-#tu{
-	float: left;
 }
