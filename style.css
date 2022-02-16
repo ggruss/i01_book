@@ -1,4 +1,5 @@
 #elem1 {
+	z-index: 3;
 	position: absolute;
 	top: 30px;
 	left: 30px;
@@ -9,6 +10,7 @@
 }
 
 #elem2 {
+	z-index: 2;
 	position: absolute;
 	top: 60px;
 	left: 60px;
@@ -18,6 +20,7 @@
 	background: #7e89eb;
 }
 #elem3 {
+	z-index: 1;
 	position: absolute;
 	top: 90px;
 	left: 90px;
