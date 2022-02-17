@@ -15,6 +15,7 @@
 }
 #i1{}
 #i2{}
-#i3{align-self: center;}
+#i3{order: 4;
+border: 1px solid red;}
 #i4{}
 #i5{}
