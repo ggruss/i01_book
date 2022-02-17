@@ -1,7 +1,13 @@
 #menu {
+	flex-direction: column;
+	justify-content: center;
+	align-items: ;
 	display: flex;
 }
-#menu a {
+#menu a {	margin-bottom: 10px;
+margin-left: 30px;
+height: 30px;
+	width: 150px;
 	margin-right: 5px;
 	padding: 10px;
 	font: 15px Arial;
@@ -15,10 +21,11 @@
 	border: 1px solid green;
 	background-color: #F5F6FA;
 }
-div#i1{margin: auto;
+div#i1{padding-top: 30px;
+	margin: auto;
 	background: white;
 	border: 1px solid white;
 	width: 1000px;
-height: 100px;}
+height: 600px;}
 body{background-image:url(bg.png);}
 a{}
