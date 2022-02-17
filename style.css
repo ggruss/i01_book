@@ -2,7 +2,7 @@
 	margin: auto;
 	display: flex;
 	flex-direction: row;
-	justify-content: right; 
+	justify-content: space-between; 
 	align-items:     center;
 	width: 900px;
 	height: 400px;
