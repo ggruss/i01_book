@@ -1,14 +1,12 @@
 #menu {
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: ;
 	display: flex;
 }
 #menu a {	margin-bottom: 10px;
-margin-left: 30px;
 height: 30px;
 	width: 150px;
-	margin-right: 5px;
 	padding: 10px;
 	font: 15px Arial;
 	text-decoration: none;
