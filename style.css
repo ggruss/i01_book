@@ -1,7 +1,7 @@
 .parent	{
 	margin: auto;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	width: 300px;
 	height: 200px;
 	border: 1px solid red;
