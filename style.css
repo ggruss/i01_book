@@ -1,31 +1,51 @@
-#wrapper h1{margin: 50px auto;}
-
-h1 {text-align: center;
-margin: /*50px*/ auto;
-font: 30px Times New Roman ;
+* {
+	box-sizing: border-box;
+}
+body {padding: 0;
+	margin: 0;
+	margin-bottom: 0;
 }
 
-
-#wrapper p.more {
-	text-align: right;
-				padding-right: 20px;}
-
-#news h1{margin-right:auto ;
-	text-align: left;}
-
-#news{padding: 20px;
-	margin: 50px auto;
-	border: 1px solid black;
-		width: 800px;
+.wrapper {
+	margin-bottom: 30px;
 }
-#news p {text-align: justify;}
-#content a:hover{color: black;
-text-decoration: none;}
-#content a{color: orange;
-text-decoration: underline;
-font: bold 20px Arial;}
-/*			#wrapper p.more {
-				text-align: right;
-				padding-right: 20px;
-			}*/
-		
+.wrapper.line {
+	background-color: #008040;
+	color: white;
+}
+.center {
+	width: 800px;
+	padding: 20px;
+	margin: 0 auto;
+}
+.wrapper h1,.wrapper h2 {
+	text-align: center;
+	margin: 0;
+	font: 40px "Arial";
+}
+.wrapper h2 {
+	margin: 0;
+	font: 20px "Arial";
+}
+.wrapper h2#i2 {
+	margin: 0;
+	font: 30px "Arial";
+}
+h2#i1{font: 50px "Arial";}
+ol{font: 17px "Arial"}
+.wrapper p {
+	font: 16px Arial;
+	text-align: justify;
+}
+.wrapper.line.gh {
+	background-color: red;
+	color: white;
+	text-align: center;}
+.wrapper.line.gh p{
+	color: white;
+	text-align: center;}
+.wrapper.line.jg {margin: 0;
+	background-color: orange;
+	color: white;
+	text-align: center;}
+.wrapper.line.jg p{padding-top: 35px;}
