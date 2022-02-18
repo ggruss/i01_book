@@ -21,7 +21,7 @@
 	padding: 20px;
 	border: 1px solid black;
 }
-#left {
+#left {margin-left: 20px;
 	width: 250px;
 	margin-right: 20px;
 	padding: 20px;
