@@ -13,9 +13,18 @@
 	];}
 	public function show1($id)
 		{
-			echo $this->users[$id['id']]['name'];
-			echo $this->users[$id['id']]['age'];
-			echo $this->users[$id['id']]['salary'];
+		if ($id['key']=='name')	echo $this->users[$id['id']]['name'];
+		if ($id['key']=='age')	echo $this->users[$id['id']]['age'];
+		if ($id['key']=='salary')	echo $this->users[$id['id']]['salary'];
+		}
+	public function all($id){
+		for ($i=1;$i<=count($this->users);$i++){
+			echo $this->users[$i]['name'].' '.$this->users[$i]['age'].' '.$this->users[$i]['salary'].' ';
 		}
 	}
+	public function npervih($id){
+		for ($i=1;$i<=$id['id'];$i++){
+			echo $this->users[$i]['name'].' '.$this->users[$i]['age'].' '.$this->users[$i]['salary'].'<br> ';
+		}} 
+}
 ?>

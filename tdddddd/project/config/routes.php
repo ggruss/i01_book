@@ -4,7 +4,9 @@
 	return [
 		new Route('/nums/:n1/:n2/:n3/', 'num', 'acta'),
 		new Route('/test/:var1/:var2/', 'page', 'act'),
-		new Route('/us/:id/', 'user', 'show1'),
+		new Route('/us/:id/:key/', 'user', 'show1'),
+		new Route('/us/:id/', 'user', 'all'),
+		new Route('/uss/:id/', 'user', 'npervih'),
 		new Route('/act1/', 'Test', 'act1'),
 		new Route('/act2/', 'Test', 'act2'),
 		new Route('/act3/', 'Test', 'act3'),
