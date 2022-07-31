@@ -29,7 +29,8 @@
 				echo '<h3>'.get_the_title().'</h3>';
 
 		echo '<teaser>'.get_the_content("подробнее...").'</teaser>';
-		the_author();}
+		the_date('j F Y');
+		}
 		}
 		// елси записей не найдено
 		else{
