@@ -26,9 +26,9 @@
 			while ( have_posts() ){
 				the_post();
 
-				echo '<h2><a href="'. get_permalink() .'">'. get_the_title() .'</a></h2>';
+				echo '<h3>'.get_the_title().'</h3>';
 
-				echo get_the_excerpt();
+				echo get_the_excerpt().'<a href="'. get_permalink() .'">'.' читать далее'.'</a>';
 			}
 		}
 		// елси записей не найдено
@@ -37,7 +37,7 @@
 		}
 		?>
 	</div>
-!!!
+
 	<footer class="footer">
 		<?php echo date('Y') ?> © Я и компания моя
 	</footer>
