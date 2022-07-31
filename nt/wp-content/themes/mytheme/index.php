@@ -28,7 +28,7 @@
 
 				echo '<h3>'.get_the_title().'</h3>';
 
-			the_content("подробнее...");
+		echo '<teaser>'.get_the_content("подробнее...").'</teaser>';
 			}
 		}
 		// елси записей не найдено
