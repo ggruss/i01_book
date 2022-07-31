@@ -29,9 +29,7 @@
 				echo '<h3>'.get_the_title().'</h3>';
 
 		echo '<teaser>'.get_the_content("подробнее...").'</teaser>';
-
-		echo 'slkdjfiashodh  ksdjf';
-		the_category(',');
+		the_tags();
 		}
 		}
 		// елси записей не найдено
