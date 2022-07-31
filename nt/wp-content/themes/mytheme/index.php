@@ -4,7 +4,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<title>
-		<?php echo wp_get_document_title(); ?>
+		<?php bloginfo(name); ?>
 	</title>
 
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" />
@@ -29,7 +29,6 @@
 				echo '<h3>'.get_the_title().'</h3>';
 
 		echo '<teaser>'.get_the_content("подробнее...").'</teaser>';
-		the_post_thumbnail();
 		}
 		}
 		else{
