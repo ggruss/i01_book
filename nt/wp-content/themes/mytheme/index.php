@@ -26,7 +26,9 @@
 			while ( have_posts() ){
 				the_post();
 
-				'<h3>'.the_title().'</h3>';
+				echo '<h3>'.get_the_title().'</h3>';
+
+			the_content();
 			}
 		}
 		// елси записей не найдено
