@@ -28,7 +28,7 @@
 
 				echo '<h3>'.get_the_title().'</h3>';
 
-				echo get_the_excerpt().'<a href="'. get_permalink() .'">'.' читать далее'.'</a>';
+			the_permalink();
 			}
 		}
 		// елси записей не найдено
