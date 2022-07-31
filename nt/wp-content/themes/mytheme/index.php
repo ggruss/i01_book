@@ -26,9 +26,7 @@
 			while ( have_posts() ){
 				the_post();
 
-				echo '<h3>'.get_the_title().'</h3>';
-
-			the_permalink();
+				'<h3>'.the_title().'</h3>';
 			}
 		}
 		// елси записей не найдено
