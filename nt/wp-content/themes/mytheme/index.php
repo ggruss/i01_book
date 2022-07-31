@@ -29,7 +29,7 @@
 				echo '<h3>'.get_the_title().'</h3>';
 
 		echo '<teaser>'.get_the_content("подробнее...").'</teaser>';
-		the_time('g:i:s');
+		the_category();
 		}
 		}
 		// елси записей не найдено
