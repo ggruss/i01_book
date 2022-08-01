@@ -38,7 +38,7 @@
 	</div>
 
 	<footer class="footer">
-		<?php echo date('Y').' '.get_bloginfo(template_url); ?> © Я и компания моя
+		<?php echo date('Y').' '.get_bloginfo(stylesheet_url); ?> © Я и компания моя
 	</footer>
 
 	<?php wp_footer(); ?>
