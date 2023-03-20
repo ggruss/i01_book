@@ -1,0 +1,1 @@
+class ColaWater extends AbsWater{}
