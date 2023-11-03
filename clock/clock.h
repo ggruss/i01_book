@@ -27,3 +27,4 @@ signals:
 };
 
 #endif // CLOCK_H
+//1
